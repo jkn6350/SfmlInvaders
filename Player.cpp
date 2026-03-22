@@ -12,7 +12,7 @@
 
 Player::Player()
 {
-  texture_.loadFromFile("/home/jakob/privat/gamedev/sfmltest/assets/player.png");
+  texture_.loadFromFile("assets/player.png");
   sprite_.setTexture(texture_, true);
   sprite_.scale({PLAYER_SPRITE_SCALE_FACTOR, PLAYER_SPRITE_SCALE_FACTOR});
   sf::Vector2f starting_pos = {

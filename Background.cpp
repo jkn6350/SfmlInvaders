@@ -8,7 +8,7 @@
 
 Background::Background()
 {
-  if(!texture_.loadFromFile("/home/jakob/privat/gamedev/sfmltest/assets/background.png"))
+  if(!texture_.loadFromFile("assets/background.png"))
     throw "Loading texture failed!";
   texture_.setRepeated(true);
   sprite_.setTexture(texture_);

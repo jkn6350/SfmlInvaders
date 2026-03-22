@@ -10,8 +10,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-#define SCORE_FONT_PATH "/home/jakob/privat/gamedev/sfmltest/assets/Satoshi-Bold.otf"
-
 int main()
 {
   bool is_running;

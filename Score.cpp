@@ -2,6 +2,7 @@
 
 #include <cstdint>
 
+#define SCORE_FONT_PATH "assets/Satoshi-Bold.otf"
 
 uint16_t Score::getScore() const
 {

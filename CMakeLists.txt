@@ -17,3 +17,9 @@ target_link_libraries(SfmlInvaders PRIVATE
         sfml-window
         sfml-system
 )
+
+add_custom_command(TARGET SfmlInvaders POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/assets
+        $<TARGET_FILE_DIR:SfmlInvaders>/assets
+)

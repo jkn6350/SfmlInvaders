@@ -5,8 +5,6 @@
 #ifndef SFMLINVADERS_SCORE_H
 #define SFMLINVADERS_SCORE_H
 
-
-#define SCORE_FONT_PATH "/home/jakob/privat/gamedev/sfmltest/assets/Satoshi-Bold.otf"
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Text.hpp>
